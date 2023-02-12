@@ -68,8 +68,8 @@
                 android:layout_height="wrap_content"
                 android:padding="16dp"
                 android:text="forgot password?"
+                android:layout_gravity="end"
 
-                android:textAlignment="center"
                 android:textColor="@color/purple"
                 android:textSize="14sp" />
 
