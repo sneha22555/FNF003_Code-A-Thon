@@ -6,11 +6,15 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -19,6 +23,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.example.mysafety.databinding.ActivityMapsBinding;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;
 
@@ -27,7 +32,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private GoogleMap mMap;
     private ActivityMapsBinding binding;
     private static final int LOCATION_PERMISSION_CODE = 101;
-
+    FloatingActionButton addinglocation;
     List<Address> listGeoCoder;
 
     @Override
@@ -55,6 +60,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         else{
             requestLocationPermission();
         }
+
+        addinglocation = findViewById(R.id.add_location_btn);
+
+        addinglocation.setOnClickListener((v)-> startActivity(new Intent(MapsActivity.this,reportLocation.class)));
 
 
     }
