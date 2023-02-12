@@ -9,8 +9,8 @@ Connected complete application with realtime firebase database for authenticatio
 Technology Used: Java, XML, Firebase, Android Studio
 
 ## How bSafe works ?
-### 1 Download the app on your iOS or Android phone
-2 Add your loved ones as your trusted contacts
-3 Click on track me when you get on a taxi, walking alone, or during other travel and commute
-4 Click on SOS when you need emergency assistance during a dangerous situation
-5 Relax and know that you are in safe hands
+#### 1 Download the app on your iOS or Android phone
+#### 2 Add your loved ones as your trusted contacts
+#### 3 Click on track me when you get on a taxi, walking alone, or during other travel and commute
+#### 4 Click on SOS when you need emergency assistance during a dangerous situation
+#### 5 Relax and know that you are in safe hands
