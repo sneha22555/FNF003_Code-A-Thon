@@ -8,7 +8,7 @@ Integrated Google Maps API, location fetching, bestroute Calculations.
 Connected complete application with realtime firebase database for authentication,realtime location updates, profile fetching.
 Technology Used: Java, XML, Firebase, Android Studio
 
-/How bSafe works ?
+#How bSafe works ?
 1 Download the app on your iOS or Android phone
 2 Add your loved ones as your trusted contacts
 3 Click on track me when you get on a taxi, walking alone, or during other travel and commute
